@@ -1469,11 +1469,13 @@ position: absolute; top:0; right:0; width: calc(100% - 500px); height: 100%; bac
 }
 .human:hover .human__content {
   left: 281px;
+  width:105%;
   z-index: 9;
 }
 .human:hover .human__pic video {display:block;}
 .human:nth-child(4n):hover .human__content {
   left: -281px;
+  margin-left:-5%;
 }
 .human1 {
   display: inline-block;
