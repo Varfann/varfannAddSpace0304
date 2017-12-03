@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f21bf8e0-a21d-4174-a3fd-583053ed9a98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/index/template_styles.css" afterPath="$PROJECT_DIR$/bitrix/templates/index/template_styles.css" />
     </list>
@@ -28,8 +27,8 @@
       <file leaf-file-name="template_styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/index/template_styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="1471" column="2" lean-forward="false" selection-start-line="1471" selection-start-column="2" selection-end-line="1471" selection-end-column="2" />
+            <state relative-caret-position="171">
+              <caret line="1784" column="18" lean-forward="false" selection-start-line="1784" selection-start-column="9" selection-end-line="1784" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -42,6 +41,9 @@
       <find>.human__content</find>
       <find>.human:hover .human__content</find>
       <find>:hover .human__content</find>
+      <find>.btn__big + .btn__big</find>
+      <find>@media</find>
+      <find>nth-child</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Varfann\PhpstormProjects\comunica</dir>
@@ -65,7 +67,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1378" />
@@ -133,15 +135,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512309192303</updated>
-      <workItem from="1512309194444" duration="2322000" />
+      <workItem from="1512309194444" duration="2999000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2322000" />
+    <option name="totallyTimeSpent" value="2999000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -180,8 +182,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/index/template_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="1471" column="2" lean-forward="false" selection-start-line="1471" selection-start-column="2" selection-end-line="1471" selection-end-column="2" />
+        <state relative-caret-position="171">
+          <caret line="1784" column="18" lean-forward="false" selection-start-line="1784" selection-start-column="9" selection-end-line="1784" selection-end-column="18" />
           <folding />
         </state>
       </provider>

@@ -1699,6 +1699,9 @@ position: absolute; top:0; right:0; width: calc(100% - 500px); height: 100%; bac
   .human:nth-child(4n):hover .human__content {
     left: -245px;
   }
+  .btn__big + .btn__big + .btn__big {
+    margin-top: 12px;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .content {
@@ -1825,6 +1828,7 @@ position: absolute; top:0; right:0; width: calc(100% - 500px); height: 100%; bac
   .partners-list__item:nth-child(12) {
     display: none;
   }
+
 }
 @media only screen and (max-width: 1023px) {
   .content {
