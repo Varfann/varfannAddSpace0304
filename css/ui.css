@@ -1,0 +1,110 @@
+@import url(../fonts/TTNorms-Bold/fonts.css);
+@import url(../fonts/TTNorms-Light/fonts.css);
+@import url(../fonts/TTNorms-Medium/fonts.css);
+@import url(../fonts/TTNorms-Regular/fonts.css);
+.arr {
+  position: absolute;
+  display: inline-block;
+  border-left: 1px solid #400040;
+  top: 0;
+  right: 0;
+  line-height: 0;
+}
+.arr.arr_up span,
+.arr.arr_down span {
+  background: url(../img/arrow_down.svg) no-repeat center;
+  background-size: 15px 8px;
+  width: 36px;
+  height: 35px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+.arr.arr_up span {
+  transform: rotate(180deg);
+}
+/* select */
+.select_outer {
+  display: inline-block;
+}
+.select_inner {
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid #400040;
+  font-family: 'Conv_TTNorms-Medium', sans-serif;
+  font-size: 13px;
+  color: #400040;
+  letter-spacing: 2px;
+  white-space: nowrap;
+  height: 36px;
+  padding: 10px 50px 10px 15px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+.select_inner:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+.select_inner.open {
+  z-index: 999;
+}
+.select_inner.open .select_list {
+  display: block;
+}
+.select_inner.select_simple {
+  border-color: transparent;
+  background: none;
+  box-shadow: none;
+}
+.select_inner.select_simple:after {
+  display: none;
+}
+.select_selected {
+  white-space: nowrap;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  display: block;
+  overflow: hidden;
+}
+.select_list {
+  display: none;
+  position: absolute;
+  left: -1px;
+  top: 34px;
+  min-width: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #400040;
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.select_list::-webkit-scrollbar {
+  width: 6px;
+}
+.select_list::-webkit-scrollbar-track {
+  width: 6px;
+  background: #F0F0F0;
+}
+.select_list::-webkit-scrollbar-thumb {
+  width: 6px;
+  background: rgba(80, 0, 80, 0.3);
+}
+.select_option {
+  display: block;
+  padding: 10px 10px;
+  color: #400040;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+.select_option:hover {
+  background: rgba(80, 0, 80, 0.07);
+  color: #EE5060;
+}
+.select_option.select_option_selected {
+  background: rgba(80, 0, 80, 0.14);
+  color: #EE5060;
+}
+.select_option.select_option_selected:hover {
+  background: rgba(80, 0, 80, 0.21);
+}

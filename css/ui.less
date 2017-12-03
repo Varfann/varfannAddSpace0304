@@ -1,0 +1,100 @@
+@import url(../fonts/TTNorms-Bold/fonts.css);
+@import url(../fonts/TTNorms-Light/fonts.css);
+@import url(../fonts/TTNorms-Medium/fonts.css);
+@import url(../fonts/TTNorms-Regular/fonts.css);
+@TTNons-Bold: 'Conv_TTNorms-Bold', sans-serif;
+@TTNons-Light: 'Conv_TTNorms-Light', sans-serif;
+@TTNons-Medium: 'Conv_TTNorms-Medium', sans-serif;
+@TTNons-Regular: 'Conv_TTNorms-Regular', sans-serif;
+
+.transition(@param: all, @time: 0.3s, @type:ease){
+  transition: @param @time @type;
+}
+
+
+@color: #231F20;
+@color1: #fff;
+@color2: #EE5060;
+@color3: #400040;
+@color4: #F0F0F0;
+@color5: #FFCC00;
+@color6: #FFA800;
+
+.arr{
+  position: absolute; display: inline-block; border-left: 1px solid @color3; top:0; right:0; line-height: 0;
+  &.arr_up, &.arr_down{
+    span{
+      background: url(../img/arrow_down.svg) no-repeat center; background-size: 15px 8px; width: 36px; height: 35px; display: inline-block;
+      .transition();
+    }
+  }
+  &.arr_up {
+    span{
+      transform: rotate(180deg);
+    }
+  }
+}
+/* select */
+.select_outer{
+  display: inline-block;
+}
+.select_inner{
+  text-transform: uppercase; text-decoration: none; border: 1px solid @color3; font-family: @TTNons-Medium; font-size: 13px; color:@color3; letter-spacing: 2px; white-space: nowrap; height: 36px; padding: 10px 50px 10px 15px; display: inline-block; position: relative; vertical-align: middle; text-align: left;
+  .transition();
+
+  &:hover{
+    background: rgba(0,0,0,.05);
+  }
+  &.open{
+    z-index: 999;
+
+    .select_list{
+      display: block;
+    }
+  }
+
+  &.select_simple{
+    border-color: transparent; background: none; box-shadow: none;
+    &:after{
+      display: none;
+    }
+  }
+}
+.select_selected{
+  white-space: nowrap; max-width: 100%; text-overflow: ellipsis; display: block; overflow: hidden;
+}
+.select_list{
+  display: none; position: absolute; left:-1px; top:34px; min-width: 100%; background: rgba(255,255,255,.95); border:1px solid @color3; padding: 10px; max-height: 300px; overflow-y: auto;
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    width: 6px; background: @color4;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    width: 6px; background: rgba(80,0,80,0.3);
+  }
+}
+.select_option {
+  display: block;
+  padding: 10px 10px;
+  color: @color3;
+  white-space: nowrap;
+  .transition();
+
+  &:hover {
+    background: rgba(80, 0, 80, .07);
+    color: @color2;
+  }
+
+  &.select_option_selected {
+    background: rgba(80, 0, 80, .14);
+    color: @color2;
+    &:hover {
+      background: rgba(80, 0, 80, .21);
+    }
+  }
+}
