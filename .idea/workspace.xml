@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f21bf8e0-a21d-4174-a3fd-583053ed9a98" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/index/template_styles.css" afterPath="$PROJECT_DIR$/bitrix/templates/index/template_styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/products/index.php" afterPath="$PROJECT_DIR$/products/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +19,7 @@
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="188">
-              <caret line="1397" column="14" lean-forward="true" selection-start-line="1397" selection-start-column="14" selection-end-line="1397" selection-end-column="14" />
+              <caret line="1397" column="14" lean-forward="false" selection-start-line="1397" selection-start-column="14" selection-end-line="1397" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -27,8 +28,54 @@
       <file leaf-file-name="template_styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/index/template_styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="1784" column="18" lean-forward="false" selection-start-line="1784" selection-start-column="9" selection-end-line="1784" selection-end-column="18" />
+            <state relative-caret-position="341">
+              <caret line="683" column="19" lean-forward="true" selection-start-line="683" selection-start-column="19" selection-end-line="683" selection-end-column="19" />
+              <folding>
+                <element signature="e#31416#31569#0" expanded="false" />
+                <element signature="e#31694#32282#0" expanded="false" />
+                <element signature="e#32283#34724#0" expanded="false" />
+                <element signature="e#34725#38848#0" expanded="false" />
+                <element signature="e#38860#53306#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="61" column="64" lean-forward="false" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/index.products.list/lang/ru/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/index.products.list/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="120" lean-forward="true" selection-start-line="17" selection-start-column="94" selection-end-line="17" selection-end-column="120" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/products/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="685">
+              <caret line="114" column="38" lean-forward="false" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -39,12 +86,20 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>.human__content</find>
-      <find>.human:hover .human__content</find>
       <find>:hover .human__content</find>
       <find>.btn__big + .btn__big</find>
       <find>@media</find>
       <find>nth-child</find>
+      <find>carousel__logo</find>
+      <find>&quot;</find>
+      <find>*//</find>
+      <find>.human:hover .human__content</find>
+      <find>.carousel__logo</find>
+      <find>.products .carousel__logo</find>
     </findStrings>
+    <replaceStrings>
+      <replace>'</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>C:\Users\Varfann\PhpstormProjects\comunica</dir>
     </dirStrings>
@@ -56,6 +111,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="&lt;f03fc9c6-40b1-495a-94b2-f127a4b2ad7f&gt;/test.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/index.products.list/lang/ru/template.php" />
+        <option value="$PROJECT_DIR$/products/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/index.products.list/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/index/template_styles.css" />
       </list>
     </option>
@@ -96,6 +156,11 @@
               <item name="comunica" type="b2602c69:ProjectViewProjectNode" />
               <item name="comunica" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="comunica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comunica" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="products" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -112,6 +177,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../smart-filter" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -135,12 +201,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512309192303</updated>
-      <workItem from="1512309194444" duration="2999000" />
+      <workItem from="1512309194444" duration="6977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2999000" />
+    <option name="totallyTimeSpent" value="6977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -152,10 +218,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23134328" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -175,16 +241,54 @@
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
-          <caret line="1397" column="14" lean-forward="true" selection-start-line="1397" selection-start-column="14" selection-end-line="1397" selection-end-column="14" />
+          <caret line="1397" column="14" lean-forward="false" selection-start-line="1397" selection-start-column="14" selection-end-line="1397" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="61" column="64" lean-forward="false" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/index.products.list/lang/ru/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="114" column="38" lean-forward="false" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/index.products.list/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="120" lean-forward="true" selection-start-line="17" selection-start-column="94" selection-end-line="17" selection-end-column="120" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/index/template_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="1784" column="18" lean-forward="false" selection-start-line="1784" selection-start-column="9" selection-end-line="1784" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="341">
+          <caret line="683" column="19" lean-forward="true" selection-start-line="683" selection-start-column="19" selection-end-line="683" selection-end-column="19" />
+          <folding>
+            <element signature="e#31416#31569#0" expanded="false" />
+            <element signature="e#31694#32282#0" expanded="false" />
+            <element signature="e#32283#34724#0" expanded="false" />
+            <element signature="e#34725#38848#0" expanded="false" />
+            <element signature="e#38860#53306#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

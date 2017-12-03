@@ -49,31 +49,66 @@ while($item = $res->GetNext())
                     </div>
 
 					<h1 class="inside"><a href="/products/">Продукты</a></h1>
-                    <div class="owl-carousel products" owl-params='{"nav":true,"margin":20,"dots":true,"dotsEach":true,"second":true,"responsive":{"0":{"items":1},"1000":{"items":3}}}'>
-<?
-$arFilter = Array(
- "IBLOCK_ID"=>3, 
- "ACTIVE"=>"Y", 
- );
-$res = CIBlockElement::GetList(Array("RAND"=>"DESC", "ID"=>"DESC"), $arFilter, false, false, array('ID', 'IBLOCK_ID', 'DETAIL_PAGE_URL', 'PREVIEW_TEXT', 'PROPERTY_LOGO', 'PROPERTY_LOGO_W', 'PROPERTY_more_height'));
-$index = 0;
-while($item = $res->GetNext())
-{
-	$logo = CFile::GetFileArray($item['PROPERTY_LOGO_VALUE']);
-	$logoW = CFile::GetFileArray($item['PROPERTY_LOGO_W_VALUE']);
-	?>
-                        <div class="item <?=(++$index == 2 ? 'second' : '')?>">
-							<div class="carousel__logo <?=($item['PROPERTY_MORE_HEIGHT_VALUE'] ? 'carousel__logo-more-height' : '')?>">
-                                <img src="<?=$logo['SRC']?>">
-                                <img src="<?=$logoW['SRC']?>" class="second">
-                            </div>
-                            <div class="carousel__title"><?=$item['PREVIEW_TEXT']?></div>
-                            <div class="carousel__more"><a href="<?=$item['DETAIL_PAGE_URL']?>">Подробнее</a></div>
-                        </div>
-<?}?> 					
-						
-                    </div>
-
+                    <? $APPLICATION->IncludeComponent("bitrix:news.list", "index.products.list", [
+                        "ACTIVE_DATE_FORMAT"              => "d.m.Y",
+                        "ADD_SECTIONS_CHAIN"              => "N",
+                        "AJAX_MODE"                       => "N",
+                        "AJAX_OPTION_ADDITIONAL"          => "",
+                        "AJAX_OPTION_HISTORY"             => "N",
+                        "AJAX_OPTION_JUMP"                => "N",
+                        "AJAX_OPTION_STYLE"               => "Y",
+                        "CACHE_FILTER"                    => "N",
+                        "CACHE_GROUPS"                    => "Y",
+                        "CACHE_TIME"                      => "20",
+                        "CACHE_TYPE"                      => "A",
+                        "CHECK_DATES"                     => "Y",
+                        "DETAIL_URL"                      => "",
+                        "DISPLAY_BOTTOM_PAGER"            => "Y",
+                        "DISPLAY_DATE"                    => "N",
+                        "DISPLAY_NAME"                    => "Y",
+                        "DISPLAY_PICTURE"                 => "Y",
+                        "DISPLAY_PREVIEW_TEXT"            => "Y",
+                        "DISPLAY_TOP_PAGER"               => "N",
+                        "FIELD_CODE"                      => [0 => "",
+                                                              1 => "",],
+                        "FILTER_NAME"                     => "",
+                        "HIDE_LINK_WHEN_NO_DETAIL"        => "N",
+                        "IBLOCK_ID"                       => "3",
+                        "IBLOCK_TYPE"                     => "comunica",
+                        "INCLUDE_IBLOCK_INTO_CHAIN"       => "N",
+                        "INCLUDE_SUBSECTIONS"             => "Y",
+                        "MESSAGE_404"                     => "",
+                        "NEWS_COUNT"                      => "999",
+                        "PAGER_BASE_LINK_ENABLE"          => "N",
+                        "PAGER_DESC_NUMBERING"            => "N",
+                        "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",
+                        "PAGER_SHOW_ALL"                  => "N",
+                        "PAGER_SHOW_ALWAYS"               => "N",
+                        "PAGER_TEMPLATE"                  => ".default",
+                        "PAGER_TITLE"                     => "Новости",
+                        "PARENT_SECTION"                  => "",
+                        "PARENT_SECTION_CODE"             => "",
+                        "PREVIEW_TRUNCATE_LEN"            => "",
+                        "PROPERTY_CODE"                   => [0 => "more_height",
+                                                              1 => "btn_block",
+                                                              2 => "partners_slider_title",
+                                                              3 => "",
+                        ],
+                        "SET_BROWSER_TITLE"               => "N",
+                        "SET_LAST_MODIFIED"               => "N",
+                        "SET_META_DESCRIPTION"            => "N",
+                        "SET_META_KEYWORDS"               => "N",
+                        "SET_STATUS_404"                  => "N",
+                        "SET_TITLE"                       => "N",
+                        "SHOW_404"                        => "N",
+                        "SORT_BY1"                        => "RAND",
+                        "SORT_BY2"                        => "ID",
+                        "SORT_ORDER1"                     => "DESC",
+                        "SORT_ORDER2"                     => "DESC",
+                        "STRICT_SECTION_CHECK"            => "N",
+                    ],
+                                                      false
+                    ); ?>
 						<div class="center" style="margin-top: 40px">
 							<a href="/products/" class="btn btn__fixed"><span>Все продукты</span><span class="btn__icon btn__icon-arrow"></span></a>
 						</div>

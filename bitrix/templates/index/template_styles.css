@@ -680,13 +680,15 @@ header.open {
 .products .carousel__logo {
   height: 52px;
   text-align: left;
-  margin-bottom: 90px;
+  margin-bottom: 70px;
+  margin-top: 20px;
   position: relative;
   z-index: 2;
 }
 .products .carousel__logo.carousel__logo-more-height{
     height: 73px;
-    margin-top: -21px;
+    /*margin-top: -21px;*/
+    margin-top: 0px;
 }
 .products .carousel__logo img {
   height: 100%;
@@ -1669,6 +1671,10 @@ position: absolute; top:0; right:0; width: calc(100% - 500px); height: 100%; bac
   color: white;
 }
 .prizes .owl-prev.disabled, .prizes .owl-next.disabled{display:none;}
+.owl-block-link{
+  text-decoration: none;
+}
+
 /*ipad*/
 @media only screen and (max-width: 1400px) {
   .content {
