@@ -1669,6 +1669,7 @@ position: absolute; top:0; right:0; width: calc(100% - 500px); height: 100%; bac
   z-index: 999999;
   font-family: 'Conv_TTNorms-Light', sans-serif;
   color: white;
+  cursor:pointer;
 }
 .prizes .owl-prev.disabled, .prizes .owl-next.disabled{display:none;}
 .owl-block-link{

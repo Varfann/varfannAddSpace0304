@@ -113,11 +113,14 @@ if (count($cur) == 2) {
         $pic = CFile::GetFileArray($item['PREVIEW_PICTURE']);
         ?>
         <div class="promo hideMobile" style="background-image: url(<?=$pic['SRC']?>)">
-            <div class="promo__triangle"><img src="/img/promo.svg"></div>
+            <div class="promo__triangle">
+                <img src="/img/promo.svg">
+            </div>
 
                 <?=$item['PREVIEW_TEXT']?>
             
-			<div style="position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;"><video autoplay="" loop="" style="
+			<div style="position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden;">
+                <video autoplay="" loop="" style="
   position: absolute;
   top: 50%;
   left: 50%;
@@ -127,11 +130,14 @@ if (count($cur) == 2) {
   height: auto;
   transform: translate(-50%, -50%);
 ">
-                            <source src="/upload/iblock/413/413a6b4cb05e480dd1e8621c3a9294d9.mp4" type="video/mp4">
-	</video></div>
+                    <source src="/upload/iblock/413/413a6b4cb05e480dd1e8621c3a9294d9.mp4" type="video/mp4">
+	            </video>
+            </div>
         </div>
         <div class="promo hideDesktop" style="background-image: url(<?=$pic['SRC']?>)">
-            <div class="promo__triangle"><img src="/img/promo_mobile.svg"></div>
+            <div class="promo__triangle">
+                <img src="/img/promo_mobile.svg">
+            </div>
 
                 <?=$item['PREVIEW_TEXT']?>
 
