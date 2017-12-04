@@ -115,8 +115,8 @@ while($item = $res->GetNext())
 
                     <h1 class="inside">Оперативная связь</h1>
                     <div class="feedback__btns">
-                        <a href="#feedback" data-fancybox class="btn btn__big"><span><span>нужен международный PR?</span></span></a>
-                        <a href="#feedback" data-fancybox class="btn btn__big"><span><span>Нужна помощь<br>в кризисной ситуации?</span></span></a>
+                        <a href="#form-need-pr" data-fancybox class="btn btn__big"><span><span>нужен международный PR?</span></span></a>
+                        <a href="#form-need-help" data-fancybox class="btn btn__big"><span><span>Нужна помощь<br>в кризисной ситуации?</span></span></a>
 						<a href="https://t.me/comunicaprbot" class="btn btn__big" target="_blank"><span><span>PR BOT COMUNICA</span></span></a>
                     </div>
                 </div>

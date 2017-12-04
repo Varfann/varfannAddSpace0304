@@ -67,7 +67,27 @@ $this->setFrameMode(true);
 		'STRICT_SECTION_CHECK' => (isset($arParams['STRICT_SECTION_CHECK']) ? $arParams['STRICT_SECTION_CHECK'] : ''),
 	),
 	$component
-);?>
+);
+$APPLICATION->IncludeComponent("bitrix:form.result.new", "template.product.form", array("CACHE_TIME"             => $arParams["CACHE_TIME"],
+                                                                                        "CACHE_TYPE"             => $arParams["CACHE_TYPE"],
+                                                                                        "CHAIN_ITEM_LINK"        => "",
+                                                                                        "CHAIN_ITEM_TEXT"        => "",
+                                                                                        "COMPONENT_TEMPLATE"     => "template.product.form",
+                                                                                        "EDIT_URL"               => "result_edit.php",
+                                                                                        "IGNORE_CUSTOM_TEMPLATE" => "N",
+                                                                                        "SEF_MODE"               => "N",
+                                                                                        "LIST_URL"               => "",
+                                                                                        "AJAX_MODE"              => "Y",
+                                                                                        "AJAX_OPTION_JUMP"       => "N",
+                                                                                        "AJAX_OPTION_STYLE"      => "Y",
+                                                                                        "AJAX_OPTION_HISTORY"    => "N",
+                                                                                        "AJAX_OPTION_ADDITIONAL" => "1",
+                                                                                        "PRODUCT_ID"             => $ElementID,
+                                                                                        "SUCCESS_URL"            => "",
+                                                                                        "USE_EXTENDED_ERRORS"    => "N",
+                                                                                        "WEB_FORM_ID"            => FORM_PRODUCT_ID,
+                                                                                        "VARIABLE_ALIASES"       => array("WEB_FORM_ID" => "WEB_FORM_ID",
+                                                                                                                          "RESULT_ID"   => "RESULT_ID",)), $component);?>
 
 <?if($arParams["USE_RATING"]=="Y" && $ElementID):?>
 <?$APPLICATION->IncludeComponent(
@@ -167,3 +187,4 @@ $this->setFrameMode(true);
 	$component
 );?>
 <?endif?>
+

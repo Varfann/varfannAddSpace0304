@@ -295,6 +295,13 @@ footer .address {
   display: inline-block;
   line-height: normal;
 }
+button.btn {
+  background-color: #fff;
+  padding: 0;
+}
+button.btn > span:first-child {
+  margin-right: -5px;
+}
 .btn > span {
   vertical-align: top;
 }
@@ -798,13 +805,13 @@ header.open {
 .feedback__form {
   padding: 30px 0 0;
 }
-.feedback__form input[type=text] {
+.feedback__form input[type=text], .feedback__form input[type=email] {
   margin-bottom: 20px;
 }
 .feedback__btns {
   text-align: center;
 }
-input[type=text] {
+input[type=text], input[type=email] {
   width: 240px;
   height: 50px;
   border: 1px solid #400040;
@@ -1961,7 +1968,7 @@ a.hamburger-logo {
   .feedback__text {
     width: 80%;
   }
-  .feedback__form input[type=text] {
+  .feedback__form input[type=text], .feedback__form input[type=email] {
     display: block;
     width: 100%;
     margin-bottom: 15px;
