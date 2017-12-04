@@ -288,6 +288,7 @@ function toggleBurger(btn)
 {
     btn.toggleClass('open');
     $('.hamburger-menu').toggleClass('open');
+    $('a.hamburger-logo').toggleClass('hideDesktop');
 }
 
 function initMap()
