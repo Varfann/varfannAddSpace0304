@@ -1,16 +1,6 @@
-﻿<?
+<?namespace CodeCraft;
 
-/**
- * Class Tools
- *
- * @author    Roman Shershnev <readytoban@gmail.com>, Dmitry Panychev <panychev@code-craft.ru>
- * @version   1.2
- * @package   CodeCraft
- * @category  Tools
- * @copyright Copyright © 2015,2016, Roman Shershnev, Dmitry Panychev
- */
-
-namespace CodeCraft;
+use Bitrix\Main\Loader;
 
 class Tools {
 
@@ -59,5 +49,16 @@ class Tools {
      */
     public static function priceToInt($price) {
         return (int)preg_replace('~\D~', '', trim($price));
+    }
+    
+    public static function setProductEmail($arFields, &$arTemplate) {
+        if ($arTemplate['EMAIL_TO'] == '#TEAM_LEAD_EMAIL#') {
+            Loader::includeModule('main');
+            $product = \CIBlockElement::GetList([], ['ID' => $arFields['FORM_ORDER_PRODUCT'], 'IBLOCK_ID' => IBLOCK_PRODUCTS], false, false, ['NAME', 'PROPERTY_user'])->Fetch();
+            $user = \CIBlockElement::GetList([], ['ID' => $product['PROPERTY_USER_VALUE'], 'IBLOCK_ID' => IBLOCK_TEAM], false, false, ['PROPERTY_email'])->Fetch();
+            $arTemplate['MESSAGE'] = str_replace('#PRODUCT_TITLE#', $product['NAME'], $arTemplate['MESSAGE']);
+            $arTemplate['SUBJECT'] = str_replace('#PRODUCT_TITLE#', $product['NAME'], $arTemplate['SUBJECT']);
+            $arTemplate['EMAIL_TO'] = $user['PROPERTY_EMAIL_VALUE'];
+        }
     }
 }
