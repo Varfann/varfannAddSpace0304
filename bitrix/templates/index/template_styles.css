@@ -433,6 +433,7 @@ footer .address {
   display: inline-block;
   margin-right: 90px;
   font-weight: bold;
+  font-family: 'Conv_TTNorms-Bold', sans-serif;
 }
 .hamburger-menu a.active {
   opacity: 0.3;
@@ -2848,5 +2849,7 @@ a.hamburger-logo {
   .g4__text-title {
     font-size: 13px;
   }
-
+  a.hamburger-logo {
+    display: none;
+  }
 }

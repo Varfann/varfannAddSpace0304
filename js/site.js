@@ -288,7 +288,10 @@ function toggleBurger(btn)
 {
     btn.toggleClass('open');
     $('.hamburger-menu').toggleClass('open');
-    $('a.hamburger-logo').toggleClass('hideDesktop');
+    //condition for mobile version
+    if (window.innerWidth > 767) {
+        $('a.hamburger-logo').toggleClass('hideDesktop');
+    }
 }
 
 function initMap()

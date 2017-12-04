@@ -89,6 +89,7 @@ if (count($cur) == 2) {
         <img src="/img/COM_logo_stroke.svg" alt="logo" width="150" height="20"/>
     </a>
     <div class="hamburger-menu">
+        <a href="/" class="hideDesktop logo"></a>
         <?$APPLICATION->IncludeComponent("bitrix:menu", "menu", Array(
             "ALLOW_MULTI_SELECT" => "N",	// Разрешить несколько активных пунктов одновременно
             "CHILD_MENU_TYPE" => "left",	// Тип меню для остальных уровней
