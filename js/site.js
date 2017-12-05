@@ -166,7 +166,8 @@ $(function(){
             }
         }
     });
-    $('.feedback__btn').on('click', function(){
+    $('.feedback__btn').on('click', function(e){
+        //e.preventDefault();
         request($(this));
     });
 
@@ -226,12 +227,13 @@ function request(btn)
     sending = true;
 
     var block = $('.feedback');
+    var $form = btn.parent();
 
     var params = {
-        name: $('[name=name]', block).val(),
-        email: $('[name=email]', block).val(),
-        phone: $('[name=phone]', block).val(),
-        company: $('[name=company]', block).val()
+        name: $('[data-info=name]', $form).val(),
+        email: $('[data-info=email]', block).val(),
+        phone: $('[data-info=phone]', block).val(),
+        company: $('[data-info=company]', block).val()
     };
 
     if (

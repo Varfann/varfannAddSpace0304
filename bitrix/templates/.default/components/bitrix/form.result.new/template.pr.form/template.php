@@ -6,25 +6,10 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {
 use Bitrix\Main\Localization\Loc;
 
 ?>
-<? if ($arResult["isFormErrors"] == "Y") { ?>
-    <div class="popup-form-message">
-        <p class="description" style="color:red;"><?=$arResult["FORM_ERRORS_TEXT"];?></p>
-    </div>
-<? }; ?>
-<? if ($arResult["FORM_NOTE"]) { ?>
-    <div class="popup-form-message">
-        <p class="description" style="color:green;"><?=$arResult["FORM_NOTE"]?></p>
-    </div>
-<? } ?>
-
-<? /*<button class="button send" type="submit" name="web_form_submit"
-        value="<?= htmlspecialcharsbx(strlen(trim($arResult["arForm"]["BUTTON"])) <= 0 ? Loc::getMessage("FORM_SEND")
-            : $arResult["arForm"]["BUTTON"]); ?>"><?= $arResult['arForm']['BUTTON'] ?></button>*/ ?>
-
-<? $questions = $arResult["QUESTIONS"]; ?>
 
 <div style="display: none">
     <div id="form-need-pr" class="feedback">
+        <? $questions = $arResult["QUESTIONS"]; ?>
         <?=$arResult["FORM_HEADER"]?>
         <? foreach ($arResult["QUESTIONS"] as $FIELD_SID => $arQuestion) {
             if ($arQuestion['STRUCTURE'][0]['FIELD_TYPE'] == 'hidden') {
@@ -36,20 +21,24 @@ use Bitrix\Main\Localization\Loc;
             <?=$arResult['arForm']['DESCRIPTION']?></div>
         <div class="feedback__form">
             <input type="text"
+                   data-info="name"
                    name="<?=$questions['FORM_PR_NAME']['NAME_ATTR']?>"
                    placeholder="<?=$questions['FORM_PR_NAME']['CAPTION']?>"
                    required>
             <input type="text"
+                   data-info="company"
                    name="<?=$questions['FORM_PR_COMPANY']['NAME_ATTR']?>"
                    placeholder="<?=$questions['FORM_PR_COMPANY']['CAPTION']?>"
                    required>
             <br class="hideMobile">
             <input type="text"
+                   data-info="phone"
                    name="<?=$questions['FORM_PR_PHONE']['NAME_ATTR']?>"
                    placeholder="<?=$questions['FORM_PR_PHONE']['CAPTION']?>"
                    class="phone_mask"
                    required>
             <input type="email"
+                   data-info="email"
                    name="<?=$questions['FORM_PR_EMAIL']['NAME_ATTR']?>"
                    placeholder="<?=$questions['FORM_PR_EMAIL']['CAPTION']?>">
         </div>

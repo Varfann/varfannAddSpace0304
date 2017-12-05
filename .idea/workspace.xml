@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f21bf8e0-a21d-4174-a3fd-583053ed9a98" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/comunica.iml" afterPath="$PROJECT_DIR$/.idea/comunica.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/php_interface/include/classes/CodeCraft/Tools.php" afterPath="$PROJECT_DIR$/local/php_interface/include/classes/CodeCraft/Tools.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/php_interface/include/defines.php" afterPath="$PROJECT_DIR$/local/php_interface/include/defines.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local/php_interface/include/handlers.php" afterPath="$PROJECT_DIR$/local/php_interface/include/handlers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api.php" afterPath="$PROJECT_DIR$/api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.help.form/lang/ru/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.help.form/lang/ru/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.help.form/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.help.form/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.pr.form/lang/ru/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.pr.form/lang/ru/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.pr.form/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.pr.form/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.product.form/lang/ru/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.product.form/lang/ru/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.product.form/template.php" afterPath="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.product.form/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/index/footer.php" afterPath="$PROJECT_DIR$/bitrix/templates/index/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/site.js" afterPath="$PROJECT_DIR$/js/site.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/products/detail.php">
+      <file leaf-file-name="site.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/site.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="70" column="140" lean-forward="false" selection-start-line="70" selection-start-column="140" selection-end-line="70" selection-end-column="140" />
+            <state relative-caret-position="622">
+              <caret line="250" column="24" lean-forward="false" selection-start-line="250" selection-start-column="17" selection-end-line="250" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -45,11 +50,21 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/index/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="58" column="116" lean-forward="false" selection-start-line="58" selection-start-column="116" selection-end-line="58" selection-end-column="116" />
+            <state relative-caret-position="79">
+              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding>
-                <marker date="1512423201690" expanded="true" signature="6376:6595" ph="..." />
+                <marker date="1512430979482" expanded="true" signature="4752:4971" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -57,23 +72,31 @@
       <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.pr.form/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state relative-caret-position="391">
+              <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="35" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.product.form/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tools.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/local/php_interface/include/classes/CodeCraft/Tools.php">
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.help.form/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="54" column="61" lean-forward="true" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
-              <folding>
-                <marker date="1512426136606" expanded="false" signature="71:166" ph=" @param int   $number ..." />
-                <marker date="1512426136606" expanded="false" signature="802:861" ph=" Check to ajax call ..." />
-                <marker date="1512426136606" expanded="false" signature="1047:1107" ph=" @param string $price ..." />
-              </folding>
+            <state relative-caret-position="566">
+              <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,27 +105,7 @@
         <entry file="file://$PROJECT_DIR$/local/php_interface/include/handlers.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="99" lean-forward="false" selection-start-line="6" selection-start-column="99" selection-end-line="6" selection-end-column="99" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.help.form/template.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="defines.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local/php_interface/include/defines.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="19" />
+              <caret line="6" column="81" lean-forward="true" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -112,11 +115,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>product__promo product__promo-dpo</find>
-      <find>wAll triangle__rcu</find>
-      <find>r8pK0VDeN14</find>
-      <find>.products .carousel__logo</find>
-      <find>wAll bg__gray triangle__main</find>
       <find>$cur</find>
       <find>player__close</find>
       <find>logo</find>
@@ -130,18 +128,23 @@
       <find>site.js</find>
       <find>promo__triangle</find>
       <find>нужен</find>
-      <find>form</find>
       <find>/step</find>
       <find>.hamburger-menu a</find>
       <find>hamburger-logo</find>
       <find>Ошибка!</find>
       <find>Необходимо заполнить все поля</find>
       <find>/bitrix/</find>
-      <find>Puffin</find>
       <find>#feedback</find>
       <find>input[type=text]</find>
       <find>.btn</find>
       <find>CACHE_TIME</find>
+      <find>btn</find>
+      <find>form</find>
+      <find>Puffin</find>
+      <find>request</find>
+      <find>inputmasks</find>
+      <find>optsRU</find>
+      <find>console.log</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -150,8 +153,8 @@
     <dirStrings>
       <dir>C:\Users\Varfann\PhpstormProjects\comunica\bitrix\templates\.default\components\bitrix\news</dir>
       <dir>C:\Users\Varfann\PhpstormProjects\comunica\local\modules\form</dir>
-      <dir>C:\Users\Varfann\PhpstormProjects\comunica</dir>
       <dir>C:\Users\Varfann\PhpstormProjects\comunica\local\php_interface</dir>
+      <dir>C:\Users\Varfann\PhpstormProjects\comunica</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -167,7 +170,6 @@
         <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news.list/index.products.list/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/index/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/js/site.js" />
         <option value="$PROJECT_DIR$/local/modules/form/lang/ru/form_validator_props.php" />
         <option value="$PROJECT_DIR$/local/modules/puffin.form/install/index.php" />
         <option value="$PROJECT_DIR$/local/modules/puffin.form/prolog.php" />
@@ -176,14 +178,17 @@
         <option value="$PROJECT_DIR$/local/php_interface/include/classes/Puffin/CGeoIP.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/index/template_styles.css" />
         <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.product.form/lang/ru/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/products/detail.php" />
+        <option value="$PROJECT_DIR$/local/php_interface/include/defines.php" />
+        <option value="$PROJECT_DIR$/local/php_interface/include/classes/CodeCraft/Tools.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.pr.form/lang/ru/template.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/index/footer.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.pr.form/template.php" />
+        <option value="$PROJECT_DIR$/js/site.js" />
+        <option value="$PROJECT_DIR$/local/php_interface/include/handlers.php" />
+        <option value="$PROJECT_DIR$/api.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.product.form/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.help.form/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.pr.form/template.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/products/detail.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/index/footer.php" />
-        <option value="$PROJECT_DIR$/local/php_interface/include/defines.php" />
-        <option value="$PROJECT_DIR$/local/php_interface/include/handlers.php" />
-        <option value="$PROJECT_DIR$/local/php_interface/include/classes/CodeCraft/Tools.php" />
       </list>
     </option>
   </component>
@@ -248,37 +253,137 @@
             <path>
               <item name="comunica" type="b2602c69:ProjectViewProjectNode" />
               <item name="comunica" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name=".default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="comunica" type="b2602c69:ProjectViewProjectNode" />
               <item name="comunica" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="php_interface" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name=".default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="comunica" type="b2602c69:ProjectViewProjectNode" />
               <item name="comunica" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="php_interface" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="include" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name=".default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="form.result.new" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="comunica" type="b2602c69:ProjectViewProjectNode" />
               <item name="comunica" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="php_interface" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="include" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="classes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name=".default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="form.result.new" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template.help.form" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="comunica" type="b2602c69:ProjectViewProjectNode" />
               <item name="comunica" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="local" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="php_interface" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="include" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="classes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="CodeCraft" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name=".default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="form.result.new" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template.help.form" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lang" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="comunica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comunica" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name=".default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="form.result.new" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template.help.form" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lang" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="comunica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comunica" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name=".default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="form.result.new" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template.pr.form" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="comunica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comunica" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name=".default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="form.result.new" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template.pr.form" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lang" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="comunica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comunica" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name=".default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="form.result.new" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template.pr.form" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lang" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ru" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="comunica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comunica" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name=".default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="form.result.new" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template.product.form" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="comunica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comunica" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name=".default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="form.result.new" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template.product.form" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lang" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="comunica" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comunica" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name=".default" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bitrix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="form.result.new" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="template.product.form" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lang" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ru" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="comunica" type="b2602c69:ProjectViewProjectNode" />
@@ -304,6 +409,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Varfann\PhpstormProjects\comunica\bitrix\templates\.default\components\bitrix\form.result.new\template.product.form\lang\ru" />
+      <recent name="C:\Users\Varfann\PhpstormProjects\comunica\bitrix\templates\.default\components\bitrix\form.result.new\template.help.form\lang\ru" />
       <recent name="C:\Users\Varfann\PhpstormProjects\comunica\bitrix\templates\.default\components\bitrix\form.result.new\template.help.form" />
       <recent name="C:\Users\Varfann\PhpstormProjects\comunica\bitrix\templates\.default\components\bitrix\form.result.new\template.pr.form" />
       <recent name="C:\Users\Varfann\PhpstormProjects\comunica\bitrix\templates\.default\components\bitrix" />
@@ -337,12 +444,12 @@
       <updated>1512309192303</updated>
       <workItem from="1512309194444" duration="9360000" />
       <workItem from="1512360591732" duration="3393000" />
-      <workItem from="1512405635958" duration="14969000" />
+      <workItem from="1512405635958" duration="19781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27722000" />
+    <option name="totallyTimeSpent" value="32534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -532,14 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/site.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="237" column="28" lean-forward="false" selection-start-line="237" selection-start-column="28" selection-end-line="237" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -633,72 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.product.form/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="47" column="76" lean-forward="true" selection-start-line="47" selection-start-column="76" selection-end-line="47" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.pr.form/lang/ru/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.help.form/lang/ru/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/products/detail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="70" column="140" lean-forward="false" selection-start-line="70" selection-start-column="140" selection-end-line="70" selection-end-column="140" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/index/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="58" column="116" lean-forward="false" selection-start-line="58" selection-start-column="116" selection-end-line="58" selection-end-column="116" />
-          <folding>
-            <marker date="1512423201690" expanded="true" signature="6376:6595" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.product.form/lang/ru/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.help.form/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.pr.form/template.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local/php_interface/init.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -715,23 +748,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local/php_interface/include/handlers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="99" lean-forward="false" selection-start-line="6" selection-start-column="99" selection-end-line="6" selection-end-column="99" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/local/php_interface/include/classes/CodeCraft/Tools.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="54" column="61" lean-forward="true" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+        <state relative-caret-position="311">
+          <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding>
             <marker date="1512426136606" expanded="false" signature="71:166" ph=" @param int   $number ..." />
             <marker date="1512426136606" expanded="false" signature="802:861" ph=" Check to ajax call ..." />
             <marker date="1512426136606" expanded="false" signature="1047:1107" ph=" @param string $price ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/products/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="70" column="140" lean-forward="false" selection-start-line="70" selection-start-column="140" selection-end-line="70" selection-end-column="140" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.pr.form/lang/ru/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/index/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <marker date="1512430979482" expanded="true" signature="4752:4971" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.product.form/lang/ru/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.help.form/lang/ru/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local/php_interface/include/handlers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="81" lean-forward="true" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/site.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="250" column="24" lean-forward="false" selection-start-line="250" selection-start-column="17" selection-end-line="250" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.pr.form/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.product.form/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="35" lean-forward="false" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.help.form/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>

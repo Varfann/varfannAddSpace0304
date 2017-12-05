@@ -58,9 +58,9 @@ class Api
         $headers .= 'From: ' . $email . "\r\n" ;
         $headers .= 'Reply-To: ' . $email . "\r\n";
 
-        if(mail($email, 'Заявка с сайта Communica', $message, $headers, '-f '.$email)){
+        //if(mail($email, 'Заявка с сайта Communica', $message, $headers, '-f '.$email)){
             $this->_result = true;
-        }
+        //}
     }
 }
 
