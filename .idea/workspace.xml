@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f21bf8e0-a21d-4174-a3fd-583053ed9a98" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/index/header.php" afterPath="$PROJECT_DIR$/bitrix/templates/index/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/index/template_styles.css" afterPath="$PROJECT_DIR$/bitrix/templates/index/template_styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/people/index.php" afterPath="$PROJECT_DIR$/people/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +18,8 @@
       <file leaf-file-name="template_styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/index/template_styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="2762" column="22" lean-forward="false" selection-start-line="2762" selection-start-column="22" selection-end-line="2762" selection-end-column="22" />
+            <state relative-caret-position="205">
+              <caret line="2098" column="20" lean-forward="true" selection-start-line="2098" selection-start-column="20" selection-end-line="2098" selection-end-column="20" />
               <folding>
                 <element signature="e#32253#32841#0" expanded="false" />
                 <element signature="e#32842#35283#0" expanded="false" />
@@ -75,9 +74,11 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/people/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="73" lean-forward="false" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
-              <folding />
+            <state relative-caret-position="306">
+              <caret line="45" column="43" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="43" />
+              <folding>
+                <element signature="e#1495#1863#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>site.js</find>
       <find>promo__triangle</find>
       <find>нужен</find>
       <find>/step</find>
@@ -116,6 +116,7 @@
       <find>human__content-text</find>
       <find>human__content</find>
       <find>.human__content-text</find>
+      <find>.content</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -159,9 +160,9 @@
         <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.help.form/template.php" />
         <option value="$PROJECT_DIR$/cases/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/people/index.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/index/header.php" />
         <option value="$PROJECT_DIR$/about/index.php" />
+        <option value="$PROJECT_DIR$/people/index.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/index/template_styles.css" />
       </list>
     </option>
@@ -287,12 +288,12 @@
       <workItem from="1512309194444" duration="9360000" />
       <workItem from="1512360591732" duration="3393000" />
       <workItem from="1512405635958" duration="25877000" />
-      <workItem from="1512488870885" duration="3391000" />
+      <workItem from="1512488870885" duration="4074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42021000" />
+    <option name="totallyTimeSpent" value="42704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -358,7 +359,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="73" lean-forward="false" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
-          <folding />
+          <folding>
+            <element signature="e#1495#1863#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -664,22 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/people/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="73" lean-forward="false" selection-start-line="29" selection-start-column="73" selection-end-line="29" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/index/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -698,10 +685,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/people/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="45" column="43" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="43" />
+          <folding>
+            <element signature="e#1495#1863#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bitrix/templates/index/template_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="2762" column="22" lean-forward="false" selection-start-line="2762" selection-start-column="22" selection-end-line="2762" selection-end-column="22" />
+        <state relative-caret-position="205">
+          <caret line="2098" column="20" lean-forward="true" selection-start-line="2098" selection-start-column="20" selection-end-line="2098" selection-end-column="20" />
           <folding>
             <element signature="e#32253#32841#0" expanded="false" />
             <element signature="e#32842#35283#0" expanded="false" />

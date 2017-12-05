@@ -43,7 +43,7 @@ $APPLICATION->SetTitle("Команда");
     </div>
 
     <div class="wAll">
-        <div class="content content__padding" style="padding-bottom: 120px">
+        <div class="content people__section content__padding" style="padding-bottom: 120px">
             <?
             $arFilter = ['IBLOCK_ID'     => 7,
                          'GLOBAL_ACTIVE' => 'Y'];

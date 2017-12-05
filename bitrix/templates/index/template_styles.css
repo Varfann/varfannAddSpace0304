@@ -2098,6 +2098,9 @@ a.hamburger-logo {
     width: 320px;
     padding: 0 20px;
   }
+  .content.people__section {
+    width:60%;
+  }
   .content__padding {
     padding-top: 20px;
   }
