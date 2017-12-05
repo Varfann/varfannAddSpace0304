@@ -11,7 +11,7 @@ $APPLICATION->SetTitle("Работы");
 $arFilter = Array(
  "IBLOCK_ID"=>2, 
  "ACTIVE"=>"Y", 
- "PROPERTY_ON_MAIN_VALUE"=>'Да'
+ "PROPERTY_ON_SLIDER_VALUE"=>'Y'
  );
 $res = CIBlockElement::GetList(Array("SORT"=>"DESC", "ID"=>"DESC"), $arFilter, false, false, array('ID', 'IBLOCK_ID', 'NAME', 'PROPERTY_COMPANY', 'PREVIEW_PICTURE'));
 while($item = $res->GetNext())
@@ -84,7 +84,7 @@ while($el = $db_list->GetNext())
 $arFilter = Array(
  "IBLOCK_ID"=>2, 
  "ACTIVE"=>"Y", 
- "PROPERTY_ON_MAIN_VALUE"=>'Да'
+ /*"PROPERTY_ON_MAIN_VALUE"=>'Y'*/
  );
 $res = CIBlockElement::GetList(Array("SORT"=>"DESC", "ID"=>"DESC"), $arFilter, false, false, array('ID', 'IBLOCK_ID', 'NAME', 'PROPERTY_COMPANY', 'PREVIEW_PICTURE'));
 while($item = $res->GetNext())
