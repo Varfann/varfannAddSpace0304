@@ -1461,6 +1461,7 @@ position: absolute; top:0; right:0; width: calc(100% - 500px); height: 100%; bac
   padding: 20px;
   z-index: -1;
   transition: all 0.3s ease;
+  overflow-y: scroll;
 }
 .human__content-name {
   text-transform: uppercase;
@@ -1471,11 +1472,12 @@ position: absolute; top:0; right:0; width: calc(100% - 500px); height: 100%; bac
 .human__content-text {
   font-size: 17px;
   line-height: 21px;
-  position: absolute;
+  /*position: absolute;*/
+  position:relative;
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 20px;
+  /*padding: 20px;*/
 }
 .human:hover {
   z-index: 11;
@@ -2756,7 +2758,10 @@ a.hamburger-logo {
   .human__content-text {
     font-size: 10px;
     line-height: 12px;
-    padding: 10px;
+    /*padding: 10px;*/
+    padding:0;
+    margin-left:-15px;
+
   }
   .human:hover .human__content {
     left: 140px;

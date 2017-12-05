@@ -41,6 +41,8 @@
 <?CModule::IncludeModule("iblock");?>
 <?
 global $USER;
+use CodeCraft\PageRouter;
+$router = PageRouter::getInstance();
 if ($USER->IsAdmin()) {
     echo '<input type="hidden" name="isAdmin" value="1">';
 }
@@ -84,10 +86,11 @@ if (count($cur) == 2) {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
     </div>
-    <?/**/?>
-    <a href="/" class="hamburger-logo">
-        <img src="/img/COM_logo_stroke.svg" alt="logo" width="150" height="20"/>
-    </a>
+    <? if (!$router->isIndex()) { ?>
+        <a href="/" class="hamburger-logo">
+            <img src="/img/COM_logo_stroke.svg" alt="logo" width="150" height="20"/>
+        </a>
+    <? } ?>
     <div class="hamburger-menu">
         <a href="/" class="hideDesktop logo"></a>
         <?$APPLICATION->IncludeComponent("bitrix:menu", "menu", Array(
