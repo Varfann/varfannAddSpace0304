@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f21bf8e0-a21d-4174-a3fd-583053ed9a98" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bitrix/templates/index/template_styles.css" afterPath="$PROJECT_DIR$/bitrix/templates/index/template_styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cases/index.php" afterPath="$PROJECT_DIR$/cases/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
@@ -14,26 +15,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="template_styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="template_styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bitrix/templates/index/template_styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="302" column="21" lean-forward="false" selection-start-line="302" selection-start-column="21" selection-end-line="302" selection-end-column="21" />
+            <state relative-caret-position="290">
+              <caret line="639" column="16" lean-forward="false" selection-start-line="639" selection-start-column="16" selection-end-line="639" selection-end-column="16" />
               <folding>
-                <element signature="e#32155#32743#0" expanded="false" />
-                <element signature="e#32744#35185#0" expanded="false" />
-                <element signature="e#35186#39344#0" expanded="false" />
-                <element signature="e#39356#53845#0" expanded="false" />
+                <element signature="e#32200#32788#0" expanded="false" />
+                <element signature="e#32789#35230#0" expanded="false" />
+                <element signature="e#35231#39389#0" expanded="false" />
+                <element signature="e#39401#53890#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cases/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="86" column="34" lean-forward="false" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="28" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -42,8 +43,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-791">
-              <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="25" />
+            <state relative-caret-position="209">
+              <caret line="35" column="110" lean-forward="false" selection-start-line="35" selection-start-column="110" selection-end-line="36" selection-end-column="113" />
               <folding />
             </state>
           </provider>
@@ -53,7 +54,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>logo</find>
       <find>.icon-hamburger-wrap</find>
       <find>toggleBurger</find>
       <find>.logo</find>
@@ -83,6 +83,7 @@
       <find>console.log</find>
       <find>PROPERTY_ON_MAIN_VALUE</find>
       <find>'Y'</find>
+      <find>.case:nth-child(3n-1)</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -113,7 +114,6 @@
         <option value="$PROJECT_DIR$/local/modules/form/install/index.php" />
         <option value="$PROJECT_DIR$/local/php_interface/include/autoload.php" />
         <option value="$PROJECT_DIR$/local/php_interface/include/classes/Puffin/CGeoIP.php" />
-        <option value="$PROJECT_DIR$/bitrix/templates/index/template_styles.css" />
         <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.product.form/lang/ru/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/news/products/detail.php" />
         <option value="$PROJECT_DIR$/local/php_interface/include/defines.php" />
@@ -126,8 +126,9 @@
         <option value="$PROJECT_DIR$/api.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.product.form/template.php" />
         <option value="$PROJECT_DIR$/bitrix/templates/.default/components/bitrix/form.result.new/template.help.form/template.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/cases/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/bitrix/templates/index/template_styles.css" />
       </list>
     </option>
   </component>
@@ -246,12 +247,12 @@
       <updated>1512309192303</updated>
       <workItem from="1512309194444" duration="9360000" />
       <workItem from="1512360591732" duration="3393000" />
-      <workItem from="1512405635958" duration="20754000" />
+      <workItem from="1512405635958" duration="22464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33507000" />
+    <option name="totallyTimeSpent" value="35217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -288,10 +289,10 @@
         <state relative-caret-position="32385">
           <caret line="2293" column="18" lean-forward="false" selection-start-line="2293" selection-start-column="3" selection-end-line="2293" selection-end-column="18" />
           <folding>
-            <element signature="e#32155#32743#0" expanded="false" />
-            <element signature="e#32744#35185#0" expanded="false" />
-            <element signature="e#35186#39344#0" expanded="false" />
-            <element signature="e#39356#53845#0" expanded="false" />
+            <element signature="e#32200#32788#0" expanded="false" />
+            <element signature="e#32789#35230#0" expanded="false" />
+            <element signature="e#35231#39389#0" expanded="false" />
+            <element signature="e#39401#53890#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -319,10 +320,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#32155#32743#0" expanded="false" />
-            <element signature="e#32744#35185#0" expanded="false" />
-            <element signature="e#35186#39344#0" expanded="false" />
-            <element signature="e#39356#53845#0" expanded="false" />
+            <element signature="e#32200#32788#0" expanded="false" />
+            <element signature="e#32789#35230#0" expanded="false" />
+            <element signature="e#35231#39389#0" expanded="false" />
+            <element signature="e#39401#53890#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -578,7 +579,7 @@
         <state relative-caret-position="391">
           <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="35" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -633,32 +634,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bitrix/templates/index/template_styles.css">
+    <entry file="file://$PROJECT_DIR$/cases/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="302" column="21" lean-forward="false" selection-start-line="302" selection-start-column="21" selection-end-line="302" selection-end-column="21" />
-          <folding>
-            <element signature="e#32155#32743#0" expanded="false" />
-            <element signature="e#32744#35185#0" expanded="false" />
-            <element signature="e#35186#39344#0" expanded="false" />
-            <element signature="e#39356#53845#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="28" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-791">
-          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="25" />
+        <state relative-caret-position="209">
+          <caret line="35" column="110" lean-forward="false" selection-start-line="35" selection-start-column="110" selection-end-line="36" selection-end-column="113" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cases/index.php">
+    <entry file="file://$PROJECT_DIR$/bitrix/templates/index/template_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="86" column="34" lean-forward="false" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="290">
+          <caret line="639" column="16" lean-forward="false" selection-start-line="639" selection-start-column="16" selection-end-line="639" selection-end-column="16" />
+          <folding>
+            <element signature="e#32200#32788#0" expanded="false" />
+            <element signature="e#32789#35230#0" expanded="false" />
+            <element signature="e#35231#39389#0" expanded="false" />
+            <element signature="e#39401#53890#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

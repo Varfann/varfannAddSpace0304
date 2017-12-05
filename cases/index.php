@@ -13,17 +13,26 @@ $arFilter = Array(
  "ACTIVE"=>"Y", 
  "PROPERTY_ON_SLIDER_VALUE"=>'Y'
  );
-$res = CIBlockElement::GetList(Array("SORT"=>"DESC", "ID"=>"DESC"), $arFilter, false, false, array('ID', 'IBLOCK_ID', 'NAME', 'PROPERTY_COMPANY', 'PREVIEW_PICTURE'));
+$res = CIBlockElement::GetList(Array("SORT"=>"DESC", "ID"=>"DESC"), $arFilter, false, false, array('ID', 'IBLOCK_ID', 'NAME', 'PROPERTY_COMPANY', 'PREVIEW_PICTURE', 'PROPERTY_CASE_LINK'));
 while($item = $res->GetNext())
 {
 	$pic = CFile::GetFileArray($item['PREVIEW_PICTURE']);
 ?>
-                            <div class="item" style="background-image: url(<?=$pic['SRC']?>)">
+    <?if ($item['PROPERTY_CASE_LINK_VALUE'] != '') {
+    $tag = 'a';
+    $additionalAttr = ' href="'.$item['PROPERTY_CASE_LINK_VALUE'].'" target="_blank" ';
+    $additionalClass = 'case-link';
+} else {
+    $tag = 'div';
+    $additionalAttr = '';
+    $additionalClass = '';
+}?>
+                            <<?=$tag?> <?=$additionalAttr?> class="item <?=$additionalClass?>" style="background-image: url(<?=$pic['SRC']?>)">
                                 <div>
                                     <div class="item__name"><?=$item['PROPERTY_COMPANY_VALUE']?></div>
                                     <div class="item__text"><?=$item['NAME']?></div>
                                 </div>
-                            </div>
+                            </<?=$tag?>>
 <?
 }
 ?> 						
@@ -86,7 +95,7 @@ $arFilter = Array(
  "ACTIVE"=>"Y", 
  /*"PROPERTY_ON_MAIN_VALUE"=>'Y'*/
  );
-$res = CIBlockElement::GetList(Array("SORT"=>"DESC", "ID"=>"DESC"), $arFilter, false, false, array('ID', 'IBLOCK_ID', 'NAME', 'PROPERTY_COMPANY', 'PREVIEW_PICTURE'));
+$res = CIBlockElement::GetList(Array("SORT"=>"DESC", "ID"=>"DESC"), $arFilter, false, false, array('ID', 'IBLOCK_ID', 'NAME', 'PROPERTY_COMPANY', 'PREVIEW_PICTURE', 'PROPERTY_CASE_LINK'));
 while($item = $res->GetNext())
 {
 	$pic = CFile::GetFileArray($item['PREVIEW_PICTURE']);
@@ -96,7 +105,17 @@ while($item = $res->GetNext())
 	while($ar_group = $db_old_groups->Fetch()) {
 		$groups[] = $ar_group["ID"];
 	}
-?><div class="case" case='<?=$item['ID']?>' groups='<?=json_encode($groups)?>'>
+?>
+<?if ($item['PROPERTY_CASE_LINK_VALUE'] != '') {
+    $tag = 'a';
+    $additionalAttr = ' href="'.$item['PROPERTY_CASE_LINK_VALUE'].'" target="_blank" ';
+    $additionalClass = 'case-link';
+} else {
+    $tag = 'div';
+    $additionalAttr = '';
+    $additionalClass = '';
+}?>
+<<?=$tag?> <?=$additionalAttr?> class="case <?=$additionalClass?>" case='<?=$item['ID']?>' groups='<?=json_encode($groups)?>'>
 	<div class="case__tbl">
 		<div>
 			<div class="case__company"><?=$item['PROPERTY_COMPANY_VALUE']?></div>
@@ -107,7 +126,7 @@ while($item = $res->GetNext())
 		<div class="case__bg-pic" style="background-image: url(<?=$pic['SRC']?>)"></div>
 		<div class="case__bg-voile"></div>
 	</div>
-</div><?
+</<?=$tag?>><?
 }
 ?>  					
                     </div>

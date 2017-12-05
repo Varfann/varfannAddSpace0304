@@ -302,6 +302,9 @@ button.btn {
 button.btn > span:first-child {
   margin-right: -5px;
 }
+a.case-link {
+  text-decoration: none;
+}
 .btn > span {
   vertical-align: top;
 }
@@ -634,7 +637,7 @@ header.open {
   background-color: rgba(0, 0, 0, 0.4);
 }
 .case:nth-child(3n-1) {
-  width: 49%;
+  width: 48.745%;
   margin-right: 1%;
 }
 .case:nth-child(3n-1) .case__tbl > div {
